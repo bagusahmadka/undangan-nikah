@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wood-dark: #3a2318;
+  --color-wood: #5C4033;
+  --color-wood-light: #8B5A2B;
+  
+  --color-gold-dark: #b8972e;
+  --color-gold: #D4AF37;
+  --color-gold-light: #FFD700;
+  
+  --color-black-elegant: #0a0a0a;
+  --color-black-soft: #1A1A1A;
+  
+  --color-cream: #FFFDD0;
+  --color-ivory: #FFFFF0;
+  --color-maroon-dark: #4a0404;
+  --color-maroon: #800000;
+
+  --font-playfair: var(--font-playfair-display);
+  --font-cormorant: var(--font-cormorant-garamond);
+  --font-poppins: var(--font-poppins);
+  --font-latin: var(--font-great-vibes);
+
+  --animate-spin-slow: spin 8s linear infinite;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-black-elegant);
+    --foreground: var(--color-ivory);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, var(--color-gold-dark), var(--color-gold-light), var(--color-gold-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-pattern {
+  background-image: url('/images/batik_pattern.png');
+  background-repeat: repeat;
+  background-size: 300px;
+  background-blend-mode: overlay;
+}
+
+.glass-panel {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* Custom Scrollbar for elegant touch */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-black-elegant);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-dark);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
