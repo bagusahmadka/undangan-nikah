@@ -14,7 +14,7 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
     <AnimatePresence>
       {!isOpened && (
         <motion.div
-          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black-elegant overflow-hidden"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background overflow-hidden"
           exit={{ opacity: 0, y: "-100%" }}
           transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
         >
@@ -24,10 +24,10 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
               src="/images/hero_bg.png"
               alt="Background"
               fill
-              className="object-cover opacity-30"
+              className="object-cover opacity-10"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black-elegant/40 via-black-elegant/60 to-black-elegant"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
           </div>
 
           <div className="relative z-10 flex flex-col items-center text-center px-6 w-full max-w-md">
@@ -41,7 +41,7 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
                 src="/images/wayang_gunungan.png"
                 alt="Gunungan"
                 fill
-                className="object-contain drop-shadow-2xl"
+                className="object-contain drop-shadow-xl brightness-90"
                 priority
               />
             </motion.div>
@@ -51,13 +51,13 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
             >
-              <p className="font-poppins text-gold tracking-[0.2em] text-sm uppercase mb-4">
+              <p className="font-poppins text-gold-dark tracking-[0.2em] text-sm uppercase mb-4">
                 The Wedding Of
               </p>
               <h1 className="font-latin text-5xl sm:text-7xl text-gradient-gold mb-6 pb-4">
                 Danang & Alin
               </h1>
-              <p className="font-cormorant text-xl text-ivory/80 italic mb-12">
+              <p className="font-cormorant text-xl text-black-elegant/80 italic mb-12">
                 "Kepada Yth. Bapak/Ibu/Saudara/i"
               </p>
 

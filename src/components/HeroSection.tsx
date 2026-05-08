@@ -14,7 +14,7 @@ export default function HeroSection() {
           fill
           className="object-cover opacity-20"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black-elegant via-transparent to-black-elegant/80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/80" />
       </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center">
@@ -37,17 +37,17 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <p className="font-poppins text-gold tracking-[0.4em] text-sm md:text-base uppercase mb-6">
+          <p className="font-poppins text-gold-dark tracking-[0.4em] text-sm md:text-base uppercase mb-6">
             The Wedding Of
           </p>
 
-          <h1 className="font-latin text-6xl md:text-8xl text-gradient-gold mb-6 pb-6 drop-shadow-lg">
+          <h1 className="font-latin text-6xl md:text-8xl text-gradient-gold mb-6 pb-6 drop-shadow-md">
             Danang & Alin
           </h1>
 
           <div className="w-24 h-[1px] bg-gold/50 mx-auto mb-8" />
 
-          <p className="font-cormorant text-2xl md:text-3xl text-ivory/90 italic px-4 leading-relaxed">
+          <p className="font-cormorant text-2xl md:text-3xl text-black-elegant/90 italic px-4 leading-relaxed">
             "Tresna iku dudu mung amarga rupa, nanging amarga ati kang tulus lan
             suci. Nyawiji ing rasa, mbangun bale wisma ingkang rahayu."
           </p>

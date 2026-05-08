@@ -25,7 +25,7 @@ export default function Home() {
   }, [isOpened]);
 
   return (
-    <main className="relative min-h-screen bg-black-elegant">
+    <main className="relative min-h-screen bg-background">
       {/* Background Pattern */}
       <div className="fixed inset-0 bg-pattern opacity-10 pointer-events-none z-0" />
 

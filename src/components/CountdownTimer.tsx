@@ -62,8 +62,8 @@ export default function CountdownTimer() {
               { label: "Detik", value: timeLeft.seconds },
             ].map((item, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border border-gold/40 flex items-center justify-center bg-black-elegant/50 mb-3 shadow-[0_0_15px_rgba(212,175,55,0.15)]">
-                  <span className="font-playfair text-2xl md:text-4xl text-ivory">
+                <div className="w-16 h-16 md:w-24 md:h-24 rounded-full border border-gold/40 flex items-center justify-center bg-ivory/50 mb-3 shadow-[0_0_15px_rgba(212,175,55,0.15)]">
+                  <span className="font-playfair text-2xl md:text-4xl text-black-elegant">
                     {isMounted ? item.value : "0"}
                   </span>
                 </div>

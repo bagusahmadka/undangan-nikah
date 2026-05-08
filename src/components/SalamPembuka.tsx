@@ -16,7 +16,7 @@ export default function SalamPembuka() {
             Assalamu'alaikum Warahmatullahi Wabarakatuh
           </h3>
           
-          <p className="font-poppins text-sm md:text-base text-ivory/80 leading-relaxed mb-8">
+          <p className="font-poppins text-sm md:text-base text-black-elegant/80 leading-relaxed mb-8">
             Kanthi nyenyuwun rido saha rahmatipun Gusti Allah SWT, mugi-mugi
             lumaraping adicara saged gangsar lancar. Kanthi raos tulus ing
             manah, kawula ngaturaken sugeng rawuh saha nyuwun donga pangestu
@@ -26,7 +26,7 @@ export default function SalamPembuka() {
           
           <div className="w-16 h-[1px] bg-gold/50 mx-auto mb-8" />
           
-          <p className="font-cormorant text-xl text-ivory/90 italic">
+          <p className="font-cormorant text-xl text-black-elegant/90 italic">
             "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
             isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa
             tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang.

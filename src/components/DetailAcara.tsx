@@ -41,15 +41,15 @@ export default function DetailAcara() {
             <h3 className="font-playfair text-3xl text-gold mb-6">Akad Nikah</h3>
             
             <div className="space-y-4 mb-8 w-full">
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <Calendar className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm tracking-wider">Senin, 27 Juli 2026</span>
               </div>
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <Clock className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm tracking-wider">08:00 WIB - Selesai</span>
               </div>
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <MapPin className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm leading-relaxed max-w-xs text-center">
                   Gg. Prenjak 01 RT 05/01<br />
@@ -82,15 +82,15 @@ export default function DetailAcara() {
             <h3 className="font-playfair text-3xl text-gold mb-6">Resepsi</h3>
             
             <div className="space-y-4 mb-8 w-full">
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <Calendar className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm tracking-wider">Senin, 27 Juli 2026</span>
               </div>
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <Clock className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm tracking-wider">10:00 WIB - Selesai</span>
               </div>
-              <div className="flex flex-col items-center justify-center text-ivory/80">
+              <div className="flex flex-col items-center justify-center text-black-elegant/80">
                 <MapPin className="w-5 h-5 text-gold mb-2" />
                 <span className="font-poppins text-sm leading-relaxed max-w-xs text-center">
                   Gg. Prenjak 01 RT 05/01<br />

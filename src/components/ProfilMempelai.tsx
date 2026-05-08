@@ -8,7 +8,7 @@ export default function ProfilMempelai() {
     <section className="py-24 relative z-10">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -17,7 +17,7 @@ export default function ProfilMempelai() {
           >
             Sang Mempelai
           </motion.h2>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -35,30 +35,30 @@ export default function ProfilMempelai() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center w-full"
           >
-            <motion.div 
-              animate={{ 
+            <motion.div
+              animate={{
                 y: [0, -15, 0],
               }}
-              transition={{ 
-                duration: 4, 
-                repeat: Infinity, 
-                ease: "easeInOut" 
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: "easeInOut"
               }}
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/groom_anim.png"
+                src="/images/foto fiks 2.png"
                 alt="Mempelai Pria"
                 fill
                 className="object-cover"
               />
             </motion.div>
             <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Danang Hadi Setiawan, S.M</h3>
-            <p className="font-poppins text-sm text-ivory/70 uppercase tracking-widest mb-4">
+            <p className="font-poppins text-sm text-black-elegant/70 uppercase tracking-widest mb-4">
               Putra dari
             </p>
-            <p className="font-cormorant text-lg md:text-xl text-ivory/90 mb-1">Bapak Agus Tri Mulyanto</p>
-            <p className="font-cormorant text-lg md:text-xl text-ivory/90">& Ibu Jumitri</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Agus Tri Mulyanto</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Jumitri</p>
           </motion.div>
 
           {/* & Symbol */}
@@ -80,31 +80,31 @@ export default function ProfilMempelai() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center w-full"
           >
-            <motion.div 
-              animate={{ 
+            <motion.div
+              animate={{
                 y: [0, -15, 0],
               }}
-              transition={{ 
-                duration: 4, 
+              transition={{
+                duration: 4,
                 delay: 0.5,
-                repeat: Infinity, 
-                ease: "easeInOut" 
+                repeat: Infinity,
+                ease: "easeInOut"
               }}
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/bride_anim.png"
+                src="/images/foto fiks 1.png"
                 alt="Mempelai Wanita"
                 fill
                 className="object-cover"
               />
             </motion.div>
             <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Arlina</h3>
-            <p className="font-poppins text-sm text-ivory/70 uppercase tracking-widest mb-4">
+            <p className="font-poppins text-sm text-black-elegant/70 uppercase tracking-widest mb-4">
               Putri dari
             </p>
-            <p className="font-cormorant text-lg md:text-xl text-ivory/90 mb-1">Bapak Murgiyono</p>
-            <p className="font-cormorant text-lg md:text-xl text-ivory/90">& Ibu Merdeka Wati</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Murgiyono</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Merdeka Wati</p>
           </motion.div>
         </div>
       </div>

@@ -52,7 +52,7 @@ export default function FloatingMusicPlayer() {
         transition={{ delay: 0.5 }}
         onClick={togglePlay}
         className={`fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full flex items-center justify-center border border-gold/50 shadow-[0_0_15px_rgba(212,175,55,0.3)] transition-all duration-300 ${
-          isPlaying ? "bg-gold text-black-elegant animate-pulse" : "bg-black-elegant/80 text-gold backdrop-blur-md"
+          isPlaying ? "bg-gold text-black-elegant animate-pulse" : "bg-ivory/80 text-gold backdrop-blur-md"
         }`}
       >
         {isPlaying ? <Music className="w-5 h-5 animate-spin-slow" /> : <Music2 className="w-5 h-5" />}

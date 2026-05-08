@@ -13,7 +13,7 @@ export default function Footer() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <p className="font-cormorant text-2xl text-ivory/80 italic mb-10">
+          <p className="font-cormorant text-2xl text-black-elegant/80 italic mb-10">
             "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
             Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu."
           </p>
@@ -22,7 +22,7 @@ export default function Footer() {
             Danang & Alin
           </h2>
 
-          <p className="font-poppins text-sm text-ivory/60 mb-12">
+          <p className="font-poppins text-sm text-black-elegant/60 mb-12">
             Kami yang berbahagia,<br />
             Keluarga Bpk. Agus Tri Mulyanto & Keluarga Bpk. Murgiyono
           </p>

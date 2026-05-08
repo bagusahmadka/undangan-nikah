@@ -24,7 +24,7 @@ export default function WeddingGift() {
             Wedding Gift
           </h2>
           <div className="w-24 h-[2px] bg-gold mx-auto mb-6" />
-          <p className="font-poppins text-sm md:text-base text-ivory/80 max-w-2xl mx-auto">
+          <p className="font-poppins text-sm md:text-base text-black-elegant/80 max-w-2xl mx-auto">
             Doa restu Anda merupakan karunia yang sangat berarti bagi kami. 
             Namun jika Anda bermaksud memberikan tanda kasih, kami menyediakan fitur di bawah ini.
           </p>
@@ -38,9 +38,9 @@ export default function WeddingGift() {
             viewport={{ once: true }}
             className="glass-panel p-10 rounded-2xl border border-gold/30 hover:border-gold/60 transition-colors shadow-[0_0_50px_rgba(212,175,55,0.1)]"
           >
-            <h3 className="font-playfair text-2xl text-ivory mb-2 uppercase tracking-widest">Bank Jateng</h3>
+            <h3 className="font-playfair text-2xl text-black-elegant mb-2 uppercase tracking-widest">Bank Jateng</h3>
             <p className="font-poppins text-gold text-2xl tracking-widest font-semibold mb-4">3022446397</p>
-            <p className="font-cormorant text-xl text-ivory/80 mb-8 italic">a.n. Arlina</p>
+            <p className="font-cormorant text-xl text-black-elegant/80 mb-8 italic">a.n. Arlina</p>
             
             <div className="flex flex-col gap-4">
               <button

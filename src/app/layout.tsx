@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${playfairDisplay.variable} ${cormorantGaramond.variable} ${poppins.variable} ${greatVibes.variable} antialiased bg-black-elegant text-ivory`}
+        className={`${playfairDisplay.variable} ${cormorantGaramond.variable} ${poppins.variable} ${greatVibes.variable} antialiased bg-background text-foreground`}
         suppressHydrationWarning
       >
         {children}
