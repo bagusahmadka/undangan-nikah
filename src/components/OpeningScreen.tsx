@@ -63,10 +63,10 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
 
               <button
                 onClick={onOpen}
-                className="group relative inline-flex items-center justify-center px-8 py-4 font-poppins text-sm tracking-widest uppercase overflow-hidden rounded-full border border-gold/50 bg-wood/20 text-gold transition-all duration-300 hover:bg-gold hover:text-black-elegant hover:shadow-[0_0_30px_rgba(212,175,55,0.4)]"
+                className="group relative inline-flex items-center justify-center px-10 py-4 font-poppins font-bold text-sm tracking-widest uppercase overflow-hidden rounded-full bg-gradient-to-r from-gold-dark via-gold-light to-gold-dark text-black-elegant shadow-[0_10px_30px_rgba(212,175,55,0.3)] transition-all duration-300 hover:scale-105 hover:shadow-[0_15px_40px_rgba(212,175,55,0.5)] active:scale-95"
               >
                 <MailOpen className="w-5 h-5 mr-3 transition-transform group-hover:scale-110" />
-                <span>Buka Undangan</span>
+                <span className="relative z-10">Buka Undangan</span>
               </button>
             </motion.div>
           </div>
