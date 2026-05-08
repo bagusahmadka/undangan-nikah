@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Cormorant_Garamond, Poppins, Great_Vibes } from "next/font/google";
+import { Cormorant_Garamond, Great_Vibes, Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -27,7 +27,7 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "The Royal Wedding - Danang & Alin",
+  title: "The Wedding Of - Danang & Alin",
   description: "Undangan Pernikahan Digital Adat Jawa Premium",
 };
 
