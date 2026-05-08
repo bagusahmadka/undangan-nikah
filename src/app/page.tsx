@@ -8,7 +8,7 @@ import SalamPembuka from "@/components/SalamPembuka";
 import ProfilMempelai from "@/components/ProfilMempelai";
 
 import DetailAcara from "@/components/DetailAcara";
-import Gallery from "@/components/Gallery";
+
 import WeddingGift from "@/components/WeddingGift";
 import Footer from "@/components/Footer";
 import FloatingMusicPlayer from "@/components/FloatingMusicPlayer";
@@ -44,7 +44,7 @@ export default function Home() {
         <ProfilMempelai />
 
         <DetailAcara />
-        <Gallery />
+
         <WeddingGift />
         <Footer />
       </div>

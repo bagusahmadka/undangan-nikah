@@ -59,7 +59,7 @@ export default function DetailAcara() {
             </div>
 
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/place/7%C2%B007'31.0%22S+110%C2%B024'34.3%22E/@-7.1252816,110.4069572,17z/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 border border-gold text-gold hover:bg-gold hover:text-black-elegant transition-colors rounded-full font-poppins text-xs tracking-widest uppercase mt-auto w-full max-w-xs"
@@ -100,7 +100,7 @@ export default function DetailAcara() {
             </div>
 
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/place/7%C2%B007'31.0%22S+110%C2%B024'34.3%22E/@-7.1252816,110.4069572,17z/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 border border-gold text-gold hover:bg-gold hover:text-black-elegant transition-colors rounded-full font-poppins text-xs tracking-widest uppercase mt-auto w-full max-w-xs"
@@ -119,7 +119,7 @@ export default function DetailAcara() {
           className="mt-16 rounded-2xl overflow-hidden border-2 border-gold/30 shadow-[0_0_20px_rgba(212,175,55,0.1)]"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.2854809817!2d110.29150519393112!3d-7.797068400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x21723fd4d3684f71!2sYogyakarta%2C%20Yogyakarta%20City%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1714828104523!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.006160371297!2d110.40695717499837!3d-7.1252815928785145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDcnMzEuMCJTIDExMMKwMjQnMzQuMyJF!5e0!3m2!1sid!2sid!4v1778199166053!5m2!1sid!2sid"
             width="100%"
             height="450"
             style={{ border: 0, filter: "grayscale(20%) sepia(30%) hue-rotate(-10deg)" }}

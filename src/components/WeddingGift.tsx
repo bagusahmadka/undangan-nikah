@@ -30,47 +30,36 @@ export default function WeddingGift() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 justify-center max-w-2xl mx-auto">
-          {/* Rekening 1 */}
+        <div className="max-w-md mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="glass-panel p-8 rounded-2xl border border-gold/30 hover:border-gold/60 transition-colors"
+            className="glass-panel p-10 rounded-2xl border border-gold/30 hover:border-gold/60 transition-colors shadow-[0_0_50px_rgba(212,175,55,0.1)]"
           >
-            <h3 className="font-playfair text-2xl text-ivory mb-2">BCA</h3>
-            <p className="font-poppins text-gold text-xl tracking-widest font-semibold mb-4">1234 5678 90</p>
-            <p className="font-cormorant text-lg text-ivory/80 mb-6">a.n. Danang Hadi Setiawan</p>
+            <h3 className="font-playfair text-2xl text-ivory mb-2 uppercase tracking-widest">Bank Jateng</h3>
+            <p className="font-poppins text-gold text-2xl tracking-widest font-semibold mb-4">3022446397</p>
+            <p className="font-cormorant text-xl text-ivory/80 mb-8 italic">a.n. Arlina</p>
             
-            <button
-              onClick={() => copyToClipboard("1234567890")}
-              className="inline-flex items-center justify-center w-full px-4 py-2 border border-gold/50 text-gold hover:bg-gold hover:text-black-elegant transition-colors rounded-lg font-poppins text-xs tracking-widest uppercase"
-            >
-              <Copy className="w-4 h-4 mr-2" />
-              Salin Rekening
-            </button>
-          </motion.div>
+            <div className="flex flex-col gap-4">
+              <button
+                onClick={() => copyToClipboard("3022446397")}
+                className="inline-flex items-center justify-center w-full px-6 py-3 border border-gold/50 text-gold hover:bg-gold hover:text-black-elegant transition-all duration-300 rounded-full font-poppins text-xs tracking-widest uppercase"
+              >
+                <Copy className="w-4 h-4 mr-2" />
+                Salin Nomor Rekening
+              </button>
 
-          {/* Rekening 2 */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="glass-panel p-8 rounded-2xl border border-gold/30 hover:border-gold/60 transition-colors"
-          >
-            <h3 className="font-playfair text-2xl text-ivory mb-2">Mandiri</h3>
-            <p className="font-poppins text-gold text-xl tracking-widest font-semibold mb-4">0987 6543 21</p>
-            <p className="font-cormorant text-lg text-ivory/80 mb-6">a.n. Arlina</p>
-            
-            <button
-              onClick={() => copyToClipboard("0987654321")}
-              className="inline-flex items-center justify-center w-full px-4 py-2 border border-gold/50 text-gold hover:bg-gold hover:text-black-elegant transition-colors rounded-lg font-poppins text-xs tracking-widest uppercase"
-            >
-              <Copy className="w-4 h-4 mr-2" />
-              Salin Rekening
-            </button>
+              <a
+                href="https://wa.me/6281229245807?text=Halo%20Arlina,%20saya%20ingin%20konfirmasi%20pengiriman%20kado%20pernikahan."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-full px-6 py-3 bg-gold text-black-elegant hover:bg-ivory transition-all duration-300 rounded-full font-poppins text-xs tracking-widest uppercase font-bold"
+              >
+                Konfirmasi WhatsApp
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>

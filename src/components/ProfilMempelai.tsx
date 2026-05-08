@@ -26,37 +26,39 @@ export default function ProfilMempelai() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center justify-center gap-12 md:gap-8 lg:gap-16">
           {/* Groom */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="flex flex-col items-center text-center max-w-sm"
+            className="flex flex-col items-center text-center w-full"
           >
-            <div className="relative w-64 h-80 mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_25px_rgba(212,175,55,0.2)]">
+            <motion.div 
+              animate={{ 
+                y: [0, -15, 0],
+              }}
+              transition={{ 
+                duration: 4, 
+                repeat: Infinity, 
+                ease: "easeInOut" 
+              }}
+              className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
+            >
               <Image
-                src="/images/groom_photo.png"
+                src="/images/groom_anim.png"
                 alt="Mempelai Pria"
                 fill
                 className="object-cover"
               />
-            </div>
-            <h3 className="font-latin text-3xl text-gradient-gold mb-2 pb-1">Danang Hadi Setiawan, S.M</h3>
+            </motion.div>
+            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Danang Hadi Setiawan, S.M</h3>
             <p className="font-poppins text-sm text-ivory/70 uppercase tracking-widest mb-4">
               Putra dari
             </p>
-            <p className="font-cormorant text-lg text-ivory/90 mb-1">Bapak Agus Tri Mulyanto</p>
-            <p className="font-cormorant text-lg text-ivory/90">& Ibu Jumitri</p>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 font-poppins text-xs text-gold/80 hover:text-gold transition-colors tracking-widest border border-gold/30 px-6 py-2 rounded-full"
-            >
-              @DANANG
-            </a>
+            <p className="font-cormorant text-lg md:text-xl text-ivory/90 mb-1">Bapak Agus Tri Mulyanto</p>
+            <p className="font-cormorant text-lg md:text-xl text-ivory/90">& Ibu Jumitri</p>
           </motion.div>
 
           {/* & Symbol */}
@@ -65,7 +67,7 @@ export default function ProfilMempelai() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
-            className="font-playfair text-6xl text-gold/40"
+            className="hidden md:flex items-center justify-center font-playfair text-7xl text-gold/40 px-4"
           >
             &
           </motion.div>
@@ -76,30 +78,33 @@ export default function ProfilMempelai() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="flex flex-col items-center text-center max-w-sm"
+            className="flex flex-col items-center text-center w-full"
           >
-            <div className="relative w-64 h-80 mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_25px_rgba(212,175,55,0.2)]">
+            <motion.div 
+              animate={{ 
+                y: [0, -15, 0],
+              }}
+              transition={{ 
+                duration: 4, 
+                delay: 0.5,
+                repeat: Infinity, 
+                ease: "easeInOut" 
+              }}
+              className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
+            >
               <Image
-                src="/images/bride_photo.png"
+                src="/images/bride_anim.png"
                 alt="Mempelai Wanita"
                 fill
                 className="object-cover"
               />
-            </div>
-            <h3 className="font-latin text-3xl text-gradient-gold mb-2 pb-1">Arlina</h3>
+            </motion.div>
+            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Arlina</h3>
             <p className="font-poppins text-sm text-ivory/70 uppercase tracking-widest mb-4">
               Putri dari
             </p>
-            <p className="font-cormorant text-lg text-ivory/90 mb-1">Bapak Murgiyono</p>
-            <p className="font-cormorant text-lg text-ivory/90">& Ibu Merdeka Wati</p>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 font-poppins text-xs text-gold/80 hover:text-gold transition-colors tracking-widest border border-gold/30 px-6 py-2 rounded-full"
-            >
-              @ALIN
-            </a>
+            <p className="font-cormorant text-lg md:text-xl text-ivory/90 mb-1">Bapak Murgiyono</p>
+            <p className="font-cormorant text-lg md:text-xl text-ivory/90">& Ibu Merdeka Wati</p>
           </motion.div>
         </div>
       </div>

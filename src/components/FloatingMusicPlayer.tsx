@@ -42,7 +42,7 @@ export default function FloatingMusicPlayer() {
     <>
       <audio
         ref={audioRef}
-        src="/music/gamelan.mp3"
+        src="/music/pujaningsih.m4a"
         loop
         preload="auto"
       />
