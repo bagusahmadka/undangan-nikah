@@ -27,7 +27,7 @@ export default function ProfilMempelai() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center justify-center gap-12 md:gap-8 lg:gap-16">
-          {/* Groom */}
+          {/* Bride */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -47,18 +47,18 @@ export default function ProfilMempelai() {
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/foto fiks 2.png"
-                alt="Mempelai Pria"
+                src="/images/foto fiks 1.png"
+                alt="Mempelai Wanita"
                 fill
                 className="object-cover"
               />
             </motion.div>
-            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Danang Hadi Setiawan, S.M</h3>
+            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Arlina</h3>
             <p className="font-poppins text-sm text-black-elegant/70 uppercase tracking-widest mb-4">
-              Putra dari
+              Putri dari
             </p>
-            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Agus Tri Mulyanto</p>
-            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Jumitri</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Murgiyono</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Merdeka Wati</p>
           </motion.div>
 
           {/* & Symbol */}
@@ -72,7 +72,7 @@ export default function ProfilMempelai() {
             &
           </motion.div>
 
-          {/* Bride */}
+          {/* Groom */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -93,18 +93,18 @@ export default function ProfilMempelai() {
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/foto fiks 1.png"
-                alt="Mempelai Wanita"
+                src="/images/foto fiks 2.png"
+                alt="Mempelai Pria"
                 fill
                 className="object-cover"
               />
             </motion.div>
-            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Arlina</h3>
+            <h3 className="font-latin text-3xl md:text-4xl text-gradient-gold mb-2 pb-1">Danang Hadi Setiawan, S.M</h3>
             <p className="font-poppins text-sm text-black-elegant/70 uppercase tracking-widest mb-4">
-              Putri dari
+              Putra dari
             </p>
-            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Murgiyono</p>
-            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Merdeka Wati</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90 mb-1">Bapak Agus Tri Mulyanto</p>
+            <p className="font-cormorant text-lg md:text-xl text-black-elegant/90">& Ibu Jumitri</p>
           </motion.div>
         </div>
       </div>

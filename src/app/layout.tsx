@@ -27,7 +27,7 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "The Wedding Of - Danang & Alin",
+  title: "The Wedding Of - Alin & Danang",
   description: "Undangan Pernikahan Digital Adat Jawa Premium",
 };
 

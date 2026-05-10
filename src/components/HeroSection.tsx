@@ -29,10 +29,10 @@ export default function HeroSection() {
             <div className="relative w-32 h-24 flex items-center justify-center">
               {/* Overlapping Initials Logo */}
               <span className="font-latin text-7xl md:text-8xl text-gradient-gold absolute -translate-x-6 -translate-y-4 opacity-90">
-                D
+                A
               </span>
               <span className="font-latin text-7xl md:text-8xl text-gradient-gold absolute translate-x-6 translate-y-4 opacity-90">
-                A
+                D
               </span>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function HeroSection() {
           </p>
 
           <h1 className="font-latin text-6xl md:text-8xl text-gradient-gold mb-6 pb-6 drop-shadow-md">
-            Danang & Alin
+            Alin & Danang
           </h1>
 
           <div className="w-24 h-[1px] bg-gold/50 mx-auto mb-8" />

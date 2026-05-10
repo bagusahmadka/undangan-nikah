@@ -55,7 +55,7 @@ export default function OpeningScreen({ isOpened, onOpen }: OpeningScreenProps) 
                 The Wedding Of
               </p>
               <h1 className="font-latin text-5xl sm:text-7xl text-gradient-gold mb-6 pb-4">
-                Danang & Alin
+                Alin & Danang
               </h1>
               <p className="font-cormorant text-xl text-black-elegant/80 italic mb-12">
                 "Kepada Yth. Bapak/Ibu/Saudara/i"

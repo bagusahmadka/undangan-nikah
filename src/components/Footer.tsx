@@ -19,18 +19,18 @@ export default function Footer() {
           </p>
 
           <h2 className="font-latin text-4xl md:text-6xl text-gradient-gold mb-6 pb-2">
-            Danang & Alin
+            Alin & Danang
           </h2>
 
           <p className="font-poppins text-sm text-black-elegant/60 mb-12">
             Kami yang berbahagia,<br />
-            Keluarga Bpk. Agus Tri Mulyanto & Keluarga Bpk. Murgiyono
+            Keluarga Bpk. Murgiyono & Keluarga Bpk. Agus Tri Mulyanto
           </p>
 
           <div className="relative w-20 h-20 mx-auto mb-6">
             <Image
               src="/images/logo-t.png"
-              alt="Logo Danang & Alin"
+              alt="Logo Alin & Danang"
               fill
               className="object-contain"
             />
