@@ -47,7 +47,7 @@ export default function ProfilMempelai() {
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/foto fiks 1.png"
+                src="/images/foto_ce.png"
                 alt="Mempelai Wanita"
                 fill
                 className="object-cover"
@@ -93,7 +93,7 @@ export default function ProfilMempelai() {
               className="relative w-72 h-96 md:w-80 md:h-[420px] mb-6 rounded-t-full overflow-hidden border-2 border-gold/50 shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               <Image
-                src="/images/foto fiks 2.png"
+                src="/images/foto_co.png"
                 alt="Mempelai Pria"
                 fill
                 className="object-cover"
